@@ -14,8 +14,9 @@ const NavBars = () => {
                 <Image width="25%" src="https://res.cloudinary.com/danimel/image/upload/v1646005470/logo_jsnmjs.jpg" alt="" />
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link ><Link  to="/" style={{color: "green"}}>Home</Link></Nav.Link>
-            <Nav.Link ><Link to="/add" style={{color: "green"}} >Add</Link></Nav.Link>
+            <Nav.Link ><Link  to="/home" style={{color: "green"}}>Home</Link></Nav.Link>
+            <Nav.Link ><Link to="/register" style={{color: "green"}} >Register</Link></Nav.Link>
+            <Nav.Link ><Link to="/" style={{color: "green"}} >login</Link></Nav.Link>
            </Nav>
         </Container>
         <Nav>
