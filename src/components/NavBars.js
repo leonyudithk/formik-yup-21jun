@@ -10,13 +10,15 @@ const NavBars = () => {
     <div>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand>
+         
                 <Image width="25%" src="https://res.cloudinary.com/danimel/image/upload/v1646005470/logo_jsnmjs.jpg" alt="" />
-          </Navbar.Brand>
+     
           <Nav className="me-auto">
             <Nav.Link ><Link  to="/home" style={{color: "green"}}>Home</Link></Nav.Link>
+            <Nav.Link ><Link to="/agregar" style={{color: "green"}} >Agregar</Link></Nav.Link>
             <Nav.Link ><Link to="/register" style={{color: "green"}} >Register</Link></Nav.Link>
             <Nav.Link ><Link to="/" style={{color: "green"}} >login</Link></Nav.Link>
+            <Nav.Link ><Link to="/api" style={{color: "green"}} >Api</Link></Nav.Link>
            </Nav>
         </Container>
         <Nav>
